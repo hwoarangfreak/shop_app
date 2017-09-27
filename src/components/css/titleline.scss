@@ -1,0 +1,14 @@
+.title {
+  display: flex;
+  align-items: center;
+  &__category {
+    min-width: 95px;
+    font-size: 20px;
+    text-align: start;
+
+  }
+  &__line {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+  }
+}

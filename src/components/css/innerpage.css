@@ -1,0 +1,70 @@
+.inner-page {
+  font-family: 'Quicksand', sans-serif; }
+  .inner-page__to-main {
+    height: 140px;
+    background-color: #f5f6f7;
+    line-height: 140px;
+    font-size: 18px;
+    padding: 0 0 0 90px; }
+    .inner-page__to-main a {
+      display: inline-block;
+      text-decoration: none;
+      color: black; }
+      .inner-page__to-main a span {
+        padding: 0 40px 0 0;
+        background: url("../../img/fa-chevron-left-black.png") no-repeat left center; }
+  .inner-page__wrapper {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 80px; }
+    .inner-page__wrapper__box {
+      margin-top: 95px;
+      display: flex;
+      background: #f5f6f7;
+      padding: 95px 30px 70px 25px;
+      border: 6px solid #aa9b77;
+      border-radius: 2px;
+      font-size: 22px; }
+      .inner-page__wrapper__box__left {
+        width: 70%; }
+        .inner-page__wrapper__box__left img {
+          width: 100%; }
+      .inner-page__wrapper__box__right {
+        display: flex; }
+        .inner-page__wrapper__box__right__props {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          text-align: end;
+          margin-right: 40px;
+          width: 120px;
+          height: 125px;
+          justify-content: space-between; }
+        .inner-page__wrapper__box__right__title {
+          display: flex;
+          flex-direction: column;
+          height: 125px;
+          justify-content: space-between; }
+
+@media all and (max-width: 1000px) {
+  .inner-page__to-main {
+    height: 100px;
+    line-height: 100px;
+    padding: 0 0 0 30px; }
+  .inner-page__wrapper {
+    width: 90%;
+    padding-top: 40px; }
+    .inner-page__wrapper__box {
+      padding: 40px 30px 30px 20px;
+      margin-top: 40px; } }
+@media all and (max-width: 550px) {
+  .inner-page__wrapper__box__right__props {
+    height: 80px; }
+
+  .inner-page__wrapper__box__right__title {
+    height: 80px; }
+
+  .inner-page__wrapper__box {
+    font-size: 15px; } }
+
+/*# sourceMappingURL=innerpage.css.map */

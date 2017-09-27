@@ -1,0 +1,12 @@
+.title {
+  display: flex;
+  align-items: center; }
+  .title__category {
+    min-width: 95px;
+    font-size: 20px;
+    text-align: start; }
+  .title__line {
+    flex-grow: 1;
+    border: 1px solid #ccc; }
+
+/*# sourceMappingURL=titleline.css.map */

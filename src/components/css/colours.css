@@ -1,0 +1,9 @@
+.colours {
+  display: flex; }
+  .colours .color {
+    width: 22px;
+    height: 22px;
+    border-radius: 22px;
+    margin-left: 5px; }
+
+/*# sourceMappingURL=colours.css.map */

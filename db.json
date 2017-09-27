@@ -2,7 +2,7 @@
   "men": [
     {
       "id": 1,
-      "type": "t-shirt",
+      "type": "t-shirt1",
       "size": ["M", "S", "L", "XL", "XXL"],
       "colours": ["red", "black"],
       "price": "100,00$",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "type": "t-shirt",
+      "type": "t-shirt2",
       "size": ["M", "S", "L", "XL", "XXL"],
       "colours": ["white"],
       "price": "110,00$",
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "type": "t-shirt",
+      "type": "t-shirt3",
       "size": ["M", "S", "L"],
       "colours": ["pink"],
       "price": "90,00$",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "type": "t-shirt",
+      "type": "t-shirt4",
       "size": ["M", "S", "XXL"],
       "colours": ["blue"],
       "price": "85,00$",
@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "type": "pants",
+      "type": "pants1",
       "size": ["L", "XL", "XXL"],
       "colours": ["black"],
       "price": "40,00$",
@@ -42,7 +42,7 @@
     },
     {
       "id": 6,
-      "type": "pants",
+      "type": "pants2",
       "size": ["XXL"],
       "colours": ["brown", "black"],
       "price": "50,00$",
@@ -50,15 +50,15 @@
     },
     {
       "id": 7,
-      "type": "pants",
+      "type": "pants3",
       "size": ["M", "S"],
       "colours": ["red"],
-      "price": "20,00$",
+      "price": "23,00$",
       "image": "http://www.klim.com/images/3142-002_Red_01.jpg?resizeid=3&resizeh=600&resizew=600"
     },
     {
       "id": 8,
-      "type": "pants",
+      "type": "pants4",
       "size": ["M", "S", "L"],
       "colours": ["army"],
       "price": "60,00$",
@@ -66,7 +66,7 @@
     },
     {
       "id": 9,
-      "type": "pants",
+      "type": "pants5",
       "size": ["M", "S", "L", "XL", "XXL"],
       "colours": ["grey"],
       "price": "75,00$",
@@ -74,7 +74,7 @@
     },
     {
       "id": 10,
-      "type": "pants",
+      "type": "pants6",
       "size": ["M", "S", "L"],
       "colours": ["black"],
       "price": "80,00$",
@@ -82,7 +82,7 @@
     },
     {
       "id": 11,
-      "type": "backpack",
+      "type": "backpack1",
       "size": ["M"],
       "colours": ["blue", "black"],
       "price": "20,00$",
@@ -90,7 +90,7 @@
     },
     {
       "id": 12,
-      "type": "backpack",
+      "type": "backpack2",
       "size": ["M", "XL", "L"],
       "colours": ["black", "yellow", "blue"],
       "price": "15,00$",
@@ -98,7 +98,7 @@
     },
     {
       "id": 13,
-      "type": "backpack",
+      "type": "backpack3",
       "size": ["M", "XL", "L"],
       "colours": ["grey"],
       "price": "25,00$",
@@ -106,7 +106,7 @@
     },
     {
       "id": 14,
-      "type": "backpack",
+      "type": "backpack4",
       "size": ["M", "XL", "L"],
       "colours": ["black"],
       "price": "34,00$",
@@ -116,228 +116,228 @@
   "women": [
     {
       "id": 1,
-      "type": "t-shirt",
-      "size": ["M", "XL", "XXL"],
+      "type": "t-shirt1",
+      "size": ["M", "S", "L", "XL", "XXL"],
       "colours": ["red", "black"],
-      "price": "55,00$",
+      "price": "100,00$",
       "image": "http://www.sunspel.com/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/4/0/4001_102_5_3.jpg"
     },
     {
       "id": 2,
-      "type": "t-shirt",
-      "size": ["M", "XL", "L"],
+      "type": "t-shirt2",
+      "size": ["M", "S", "L", "XL", "XXL"],
       "colours": ["white"],
-      "price": "30,00$",
+      "price": "110,00$",
       "image": "https://pixel.nymag.com/imgs/fashion/daily/2016/04/28/white-t-shirt-e-comm/alexander-chee.w710.h473.2x.jpg"
     },
     {
       "id": 3,
-      "type": "t-shirt",
-      "size": ["M", "XL", "L"],
+      "type": "t-shirt3",
+      "size": ["M", "S", "L"],
       "colours": ["pink"],
-      "price": "30,00$",
+      "price": "90,00$",
       "image": "https://img.michaels.com/L6/3/IOGLO/873480063/212543238/10093626_r.jpg?fit=inside|1024:1024"
     },
     {
       "id": 4,
-      "type": "t-shirt",
-      "size": ["M", "XL", "L"],
+      "type": "t-shirt4",
+      "size": ["M", "S", "XXL"],
       "colours": ["blue"],
-      "price": "30,00$",
+      "price": "85,00$",
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg"
     },
     {
       "id": 5,
-      "type": "pants",
-      "size": ["M", "XL", "L"],
+      "type": "pants1",
+      "size": ["L", "XL", "XXL"],
       "colours": ["black"],
-      "price": "30,00$",
+      "price": "40,00$",
       "image": "https://cdn-images.farfetch-contents.com/12/27/49/57/12274957_10776579_255.jpg"
     },
     {
       "id": 6,
-      "type": "pants",
-      "size": ["M", "XL", "L"],
+      "type": "pants2",
+      "size": ["XXL"],
       "colours": ["brown", "black"],
-      "price": "30,00$",
+      "price": "50,00$",
       "image": "https://kathmandu.imgix.net/catalog/product/1/4/14856_federatepants_a_k02.jpg"
     },
     {
       "id": 7,
-      "type": "pants",
-      "size": ["M", "XL", "L"],
+      "type": "pants3",
+      "size": ["M", "S"],
       "colours": ["red"],
-      "price": "30,00$",
+      "price": "23,00$",
       "image": "http://www.klim.com/images/3142-002_Red_01.jpg?resizeid=3&resizeh=600&resizew=600"
     },
     {
       "id": 8,
-      "type": "pants",
-      "size": ["M", "XL", "L"],
+      "type": "pants4",
+      "size": ["M", "S", "L"],
       "colours": ["army"],
-      "price": "30,00$",
+      "price": "60,00$",
       "image": "http://demandware.edgesuite.net/aakn_prd/on/demandware.static/-/Sites-bdel/default/dwcffb3d51/products/apparel/_F15/W80T_325_SAGE_Zone_Pants_Front_W_web.jpg"
     },
     {
       "id": 9,
-      "type": "pants",
-      "size": ["M", "XL", "L"],
+      "type": "pants5",
+      "size": ["M", "S", "L", "XL", "XXL"],
       "colours": ["grey"],
-      "price": "30,00$",
+      "price": "75,00$",
       "image": "https://n.nordstrommedia.com/ImageGallery/store/product/Zoom/18/_101176298.jpg?fit=fill&fm=jpg&dpr=2&h=368&w=240&quality=45"
     },
     {
       "id": 10,
-      "type": "pants",
-      "size": ["M", "XL", "L"],
+      "type": "pants6",
+      "size": ["M", "S", "L"],
       "colours": ["black"],
-      "price": "30,00$",
+      "price": "80,00$",
       "image": "https://uniqlo.scene7.com/is/image/UNIQLO/goods_09_146140?,00$detail,00$"
     },
     {
       "id": 11,
-      "type": "backpack",
-      "size": ["M", "XL", "L"],
+      "type": "backpack1",
+      "size": ["M"],
       "colours": ["blue", "black"],
-      "price": "30,00$",
+      "price": "20,00$",
       "image": "https://images.thenorthface.com/is/image/TheNorthFace/CHJ0_LYK_hero"
     },
     {
       "id": 12,
-      "type": "backpack",
+      "type": "backpack2",
       "size": ["M", "XL", "L"],
-      "colours": ["grey"],
-      "price": "30,00$",
+      "colours": ["black", "yellow", "blue"],
+      "price": "15,00$",
       "image": "http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Herschel-Supply-Heritage-Black-%26-Tan-Backpack-_181855-front.jpg"
     },
     {
       "id": 13,
-      "type": "backpack",
+      "type": "backpack3",
       "size": ["M", "XL", "L"],
       "colours": ["grey"],
-      "price": "30,00$",
+      "price": "25,00$",
       "image": "https://images-na.ssl-images-amazon.com/images/I/916J3uux1XL._SY355_.jpg"
     },
     {
       "id": 14,
-      "type": "backpack",
+      "type": "backpack4",
       "size": ["M", "XL", "L"],
       "colours": ["black"],
-      "price": "30,00$",
+      "price": "34,00$",
       "image": "http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Herschel-Supply-Black-Settlement-Backpack-_198661-front.jpg"
     }
   ],
   "children": [
     {
       "id": 1,
-      "type": "t-shirt",
-      "size": ["M", "XL", "XXL"],
+      "type": "t-shirt1",
+      "size": ["M", "S", "L", "XL", "XXL"],
       "colours": ["red", "black"],
-      "price": "55,00$",
+      "price": "100,00$",
       "image": "http://www.sunspel.com/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/4/0/4001_102_5_3.jpg"
     },
     {
       "id": 2,
-      "type": "t-shirt",
-      "size": ["M", "XL", "L"],
+      "type": "t-shirt2",
+      "size": ["M", "S", "L", "XL", "XXL"],
       "colours": ["white"],
-      "price": "30,00$",
+      "price": "110,00$",
       "image": "https://pixel.nymag.com/imgs/fashion/daily/2016/04/28/white-t-shirt-e-comm/alexander-chee.w710.h473.2x.jpg"
     },
     {
       "id": 3,
-      "type": "t-shirt",
-      "size": ["M", "XL", "L"],
+      "type": "t-shirt3",
+      "size": ["M", "S", "L"],
       "colours": ["pink"],
-      "price": "30,00$",
+      "price": "90,00$",
       "image": "https://img.michaels.com/L6/3/IOGLO/873480063/212543238/10093626_r.jpg?fit=inside|1024:1024"
     },
     {
       "id": 4,
-      "type": "t-shirt",
-      "size": ["M", "XL", "L"],
+      "type": "t-shirt4",
+      "size": ["M", "S", "XXL"],
       "colours": ["blue"],
-      "price": "30,00$",
+      "price": "85,00$",
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg"
     },
     {
       "id": 5,
-      "type": "pants",
-      "size": ["M", "XL", "L"],
+      "type": "pants1",
+      "size": ["L", "XL", "XXL"],
       "colours": ["black"],
-      "price": "30,00$",
+      "price": "40,00$",
       "image": "https://cdn-images.farfetch-contents.com/12/27/49/57/12274957_10776579_255.jpg"
     },
     {
       "id": 6,
-      "type": "pants",
-      "size": ["M", "XL", "L"],
+      "type": "pants2",
+      "size": ["XXL"],
       "colours": ["brown", "black"],
-      "price": "30,00$",
+      "price": "50,00$",
       "image": "https://kathmandu.imgix.net/catalog/product/1/4/14856_federatepants_a_k02.jpg"
     },
     {
       "id": 7,
-      "type": "pants",
-      "size": ["M", "XL", "L"],
+      "type": "pants3",
+      "size": ["M", "S"],
       "colours": ["red"],
-      "price": "30,00$",
+      "price": "23,00$",
       "image": "http://www.klim.com/images/3142-002_Red_01.jpg?resizeid=3&resizeh=600&resizew=600"
     },
     {
       "id": 8,
-      "type": "pants",
-      "size": ["M", "XL", "L"],
+      "type": "pants4",
+      "size": ["M", "S", "L"],
       "colours": ["army"],
-      "price": "30,00$",
+      "price": "60,00$",
       "image": "http://demandware.edgesuite.net/aakn_prd/on/demandware.static/-/Sites-bdel/default/dwcffb3d51/products/apparel/_F15/W80T_325_SAGE_Zone_Pants_Front_W_web.jpg"
     },
     {
       "id": 9,
-      "type": "pants",
-      "size": ["M", "XL", "L"],
+      "type": "pants5",
+      "size": ["M", "S", "L", "XL", "XXL"],
       "colours": ["grey"],
-      "price": "30,00$",
+      "price": "75,00$",
       "image": "https://n.nordstrommedia.com/ImageGallery/store/product/Zoom/18/_101176298.jpg?fit=fill&fm=jpg&dpr=2&h=368&w=240&quality=45"
     },
     {
       "id": 10,
-      "type": "pants",
-      "size": ["M", "XL", "L"],
+      "type": "pants6",
+      "size": ["M", "S", "L"],
       "colours": ["black"],
-      "price": "30,00$",
+      "price": "80,00$",
       "image": "https://uniqlo.scene7.com/is/image/UNIQLO/goods_09_146140?,00$detail,00$"
     },
     {
       "id": 11,
-      "type": "backpack",
-      "size": ["M", "XL", "L"],
+      "type": "backpack1",
+      "size": ["M"],
       "colours": ["blue", "black"],
-      "price": "30,00$",
+      "price": "20,00$",
       "image": "https://images.thenorthface.com/is/image/TheNorthFace/CHJ0_LYK_hero"
     },
     {
       "id": 12,
-      "type": "backpack",
+      "type": "backpack2",
       "size": ["M", "XL", "L"],
-      "colours": ["grey"],
-      "price": "30,00$",
+      "colours": ["black", "yellow", "blue"],
+      "price": "15,00$",
       "image": "http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Herschel-Supply-Heritage-Black-%26-Tan-Backpack-_181855-front.jpg"
     },
     {
       "id": 13,
-      "type": "backpack",
+      "type": "backpack3",
       "size": ["M", "XL", "L"],
       "colours": ["grey"],
-      "price": "30,00$",
+      "price": "25,00$",
       "image": "https://images-na.ssl-images-amazon.com/images/I/916J3uux1XL._SY355_.jpg"
     },
     {
       "id": 14,
-      "type": "backpack",
+      "type": "backpack4",
       "size": ["M", "XL", "L"],
       "colours": ["black"],
-      "price": "30,00$",
+      "price": "34,00$",
       "image": "http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Herschel-Supply-Black-Settlement-Backpack-_198661-front.jpg"
     }
   ]

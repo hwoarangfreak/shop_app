@@ -1,0 +1,64 @@
+.item {
+  background-color: #f5f6f7;
+  width: 310px;
+  height: 380px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  outline: 6px solid #f5f6f7; }
+  .item:hover {
+    outline: 6px solid #aa9b77; }
+  .item .item__box {
+    padding: 25px; }
+    .item .item__box .first-line {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px; }
+      .item .item__box .first-line__size {
+        float: left;
+        height: 20px;
+        line-height: 20px !important;
+        display: inline-block;
+        vertical-align: middle; }
+      .item .item__box .first-line .dropdown {
+        background: #f5f6f7;
+        margin: 0; }
+        .item .item__box .first-line .dropdown__container {
+          height: 20px;
+          background: #f5f6f7; }
+          .item .item__box .first-line .dropdown__container * {
+            float: left;
+            height: 20px;
+            line-height: 20px !important;
+            display: inline-block;
+            vertical-align: middle; }
+          .item .item__box .first-line .dropdown__container__selected {
+            padding: 0;
+            width: 40px; }
+          .item .item__box .first-line .dropdown__container__arrow {
+            margin: 0;
+            width: 20px; }
+        .item .item__box .first-line .dropdown__list__box__item * {
+          height: 20px;
+          line-height: 20px !important;
+          display: inline-block;
+          vertical-align: middle; }
+    .item .item__box a {
+      text-decoration: none;
+      color: black; }
+      .item .item__box a .second-line {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px; }
+        .item .item__box a .second-line img {
+          width: 200px;
+          height: 250px; }
+      .item .item__box a .third-line {
+        display: flex;
+        justify-content: space-between;
+        line-height: 22px; }
+        .item .item__box a .third-line__name {
+          font-size: 18px; }
+        .item .item__box a .third-line__price {
+          font-size: 22px; }
+
+/*# sourceMappingURL=item.css.map */

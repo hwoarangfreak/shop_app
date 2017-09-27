@@ -1,0 +1,46 @@
+.items-line {
+  padding: 15px 95px 0 100px;
+  margin-bottom: 70px; }
+  .items-line__navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 45px 0 20px 0; }
+    .items-line__navigation__counter {
+      font-size: 16px;
+      color: #aa9b77; }
+    .items-line__navigation__arrows {
+      display: flex; }
+      .items-line__navigation__arrows__arrow {
+        width: 11px;
+        height: 12px;
+        margin: 0 10px 0 0;
+        cursor: pointer; }
+      .items-line__navigation__arrows__arrow:last-child {
+        margin: 0; }
+      .items-line__navigation__arrows__arrow.left {
+        background: url("../../img/fa-chevron-left.png") no-repeat; }
+      .items-line__navigation__arrows__arrow.right {
+        background: url("../../img/fa-chevron-right.png") no-repeat; }
+  .items-line .items-line__carousel {
+    display: flex;
+    flex-wrap: wrap; }
+
+.items-line.reverse {
+  padding: 15px 100px 0 95px; }
+  .items-line.reverse .items-line__title {
+    flex-direction: row-reverse; }
+    .items-line.reverse .items-line__title .items-line__title__category {
+      min-width: 85px;
+      text-align: end; }
+  .items-line.reverse .items-line__navigation {
+    align-items: flex-start;
+    padding: 55px 0 0 0; }
+  .items-line.reverse .items-line__carousel {
+    padding: 20px 0 0 0; }
+
+@media all and (max-width: 1000px) {
+  .items-line {
+    padding: 10px 30px 0 30px; } }
+
+/*# sourceMappingURL=items.css.map */

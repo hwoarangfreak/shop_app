@@ -1,0 +1,88 @@
+.inner-page {
+  font-family: 'Quicksand', sans-serif;
+  &__to-main {
+    height: 140px;
+    background-color: #f5f6f7;
+    line-height: 140px;
+    font-size: 18px;
+    padding: 0 0 0 90px;
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+      span {
+        padding: 0 40px 0 0;
+        background: url("../../img/fa-chevron-left-black.png") no-repeat left center;
+      }
+    }
+  }
+  &__wrapper {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 80px;
+    &__box {
+      margin-top: 95px;
+      display: flex;
+      background: #f5f6f7;
+      padding: 95px 30px 70px 25px;
+      border: 6px solid #aa9b77;
+      border-radius: 2px;
+      font-size: 22px;
+      &__left {
+        width: 70%;
+        img {
+          width: 100%;
+        }
+      }
+      &__right {
+        display: flex;
+        &__props {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          text-align: end;
+          margin-right: 40px;
+          width: 120px;
+          height: 125px;
+          justify-content: space-between;
+        }
+        &__title {
+          display: flex;
+          flex-direction: column;
+          height: 125px;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .inner-page {
+    &__to-main {
+      height: 100px;
+      line-height: 100px;
+      padding: 0 0 0 30px;
+    }
+    &__wrapper {
+      width: 90%;
+      padding-top: 40px;
+      &__box {
+        padding: 40px 30px 30px 20px;
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 550px) {
+  .inner-page__wrapper__box__right__props {
+    height: 80px;
+  }
+  .inner-page__wrapper__box__right__title {
+    height: 80px;
+  }
+  .inner-page__wrapper__box {
+    font-size: 15px;
+  }
+}
